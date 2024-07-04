@@ -1,0 +1,335 @@
+.Quiz{
+    background-color: #FAF9F6;
+}
+
+.Quiz p{
+    font-size: 1.5rem;
+    font-family: 'Alumni Sans';
+    font-weight: 600;
+    text-align: center;
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz_header{
+    display:flex;
+    padding: 15px;
+    padding-left: 30px;
+    border-bottom: 1.5px solid #BEBCBC;
+    height: 2.5vh;
+}
+
+.quiz_header p{
+    margin-top:0;
+    margin-left: 9px;
+    font-size: 20px;
+    font-family: 'Alumni Sans';
+    font-weight: 600;
+    color:#000000;
+}
+
+.heart-icon{
+    margin-top: 3px;
+    color: #C6C1FF;
+    font-size: 1rem;
+}
+
+.link-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+    text-decoration: none; /* Remove underline from Link */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.link-container p{
+    margin: 0;
+    margin-left: 9px;
+}
+
+.link-container .heart-icon{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.quiz_banner{
+    margin-top: 3%;
+    /* background-color: #C6C1FF; */
+    background:
+    linear-gradient(to bottom, #FAF9F6 0%, #FAF9F6 10%) top,
+    linear-gradient(to bottom, #C6C1FF 0%, #C6C1FF 80%) center,
+    linear-gradient(to bottom, #FAF9F6 60%, #FAF9F6 100%) bottom;
+    background-size: 100% 10%, 100% 80%, 100% 40%;
+    background-repeat: no-repeat;
+    
+}
+
+.q1{
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.title p{
+    font-size: 2rem;
+    font-family: 'Alumni Sans';
+    font-weight: 600;
+}
+
+.q1-images, .q5-images, .q7-images{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.q1-images img{
+    width:20%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2); /* Drop shadow */
+    background-color: white;
+}
+
+#q1.buttons, #q5.buttons{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 25px;
+}
+
+.buttons button{
+    font-size: 1rem;
+    width: 100px;
+    height: 30px;
+    background-color: #F5f5f5;
+    border-radius: 30px;
+    border: 0.5px solid #000000;
+    font-family: 'Alumni Sans';
+    
+}
+
+.buttons button:hover{
+    background-color: #e1dfdf
+  }
+  
+.buttons button:active{
+    background-color: #F5F5F5;
+  }
+
+.buttons button.red {
+    background-color: rgb(238, 132, 132); /* Color when clicked */
+  }
+
+.buttons button.green {
+    background-color: rgb(113, 189, 113); /* Color when clicked */
+  }
+
+.q2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 3%;
+}
+
+.q2-question{
+    width:60vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C6C1FF;
+    border-radius: 10px;
+}
+
+.q2-question p{
+    color: #FAF9F6;
+}
+
+#q2.buttons, #q4.buttons, #q6.buttons, #q8.buttons, #q9.buttons, #q10.buttons{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#q2.buttons button, #q3.buttons button, #q4.buttons button, #q6.buttons button, #q7.buttons button, #q8.buttons button,#q9.buttons button,#q10.buttons button{
+    width: 20vw;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.q3{
+    width: 100vw;
+    height: 33vh;
+    background-color: #E5E5E5;
+    margin-top: 2%;
+}
+
+.q3-question{
+    padding-top: 20px;
+}
+
+#q3 .left-buttons, #q3 .right-buttons, #q7 .left-buttons, #q7 .right-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+#q3 button{
+    margin-bottom: 5px;
+}
+
+#q3 .left-buttons, #q7 .left-buttons{
+    margin-right: 10px;
+}
+
+#q3.buttons, #q7.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.q4-images img{
+    width:25vw;
+    margin-left: 35%;
+}
+
+
+#q4.buttons, #q6.buttons , #q8.buttons, #q9.buttons,#q10.buttons {
+    height: 15vh;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+}
+
+.q5{
+    height: 60vh;
+    background-color: #C6C1FF;
+    padding-top: 1%;
+    margin-top: 3%;
+    padding-top: 4%
+}
+
+.q5-images img{
+    width: 15vw;
+}
+
+.q5-images{
+    align-items: center;
+    justify-content: center;
+}
+
+#q5.buttons{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3.5%;
+}
+
+.q6{
+    margin-top: 3%;
+    display: flex;
+}
+
+#q6.buttons{
+    margin-right: 5%;
+    margin-left: 20%;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.q6-images img{
+    width:25vw;
+    margin-left: 15%;
+}
+
+.q7{
+    margin-top: 3%;
+    padding-top: 3%;
+    height: 70vh;
+    background-color: #e5e5e5;
+}
+
+.q7-images img{
+    width: 15vw;
+}
+
+.q7-images{
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+}
+
+#q7.buttons{
+    margin-top: 2%;
+}
+
+.q8{
+    display: flex;
+    padding-left: 22%;
+    padding-top:5%;
+}
+
+.q8-images img{
+    width: 12vw;
+    margin-left: 3.5px;
+}
+
+
+#q8.buttons{
+    align-items: center;
+    padding-top: 5%;
+    margin-left: 6%;
+}
+
+.q9, .q10{
+    width: 35vw;
+    height:50vh;
+    background-color: #C6C1FF;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 4%;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+#q9.buttons, #q10.buttons{
+    align-items: center;
+}
+
+.q9q10{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 2%;
+}
+
+.q10{
+    background-color: #e5e5e5;
+}
+
+#q11{
+    padding-bottom: 10%;
+}
+
+.topImage, .bottomImage{
+    display: flex;
+    flex-direction: row;
+}
+
+.topImage{
+    margin-bottom: 3px;
+}

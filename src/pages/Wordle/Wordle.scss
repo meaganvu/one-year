@@ -1,0 +1,77 @@
+.wordle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    background-color: #FAF9F6;
+    height: 100vh;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+  }
+  
+  .notification {
+    text-align: center;
+    height: 1rem;
+    margin-bottom: 1em;
+    color: salmon;
+    font-weight: 600;
+    font-size: 1.25rem;
+  
+    &--green {
+      color: #538d4e;
+    }
+  }
+
+  .home_header{
+    display:flex;
+    padding: 15px;
+    padding-left: 30px;
+    border-bottom: 1.5px solid #BEBCBC;
+    height: 2.5vh;
+    width: 100vw;
+}
+
+.home_header p{
+    margin-top:0;
+    margin-left: 9px;
+    font-size: 20px;
+    font-family: 'Alumni Sans';
+    font-weight: 600;
+    padding:0;
+}
+
+.heart-icon{
+    margin-top: 3px;
+    color: #C6C1FF;
+    font-size: 1rem;
+}
+
+.link-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+    text-decoration: none; /* Remove underline from Link */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.link-container p{
+    margin: 0;
+    margin-left: 9px;
+}
+
+.link-container .heart-icon{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.title{
+    font-size: 2rem;
+    font-family: 'Alumni Sans';
+    font-weight: 600;
+}

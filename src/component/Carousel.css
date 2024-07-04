@@ -1,0 +1,29 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.Carousel {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.slide img {
+  height: 40vh;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.7); 
+
+}
+
+.slide {
+  transform: scale(0.4);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.activeSlide img{
+    box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.7); 
+}
