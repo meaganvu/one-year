@@ -1,5 +1,5 @@
 import './Opening.css';
-import Arrow from '../../images/Arrow.png';
+import Arrow from './images/Arrow.png';
 import { Link } from 'react-router-dom';
 
 function Opening() {
